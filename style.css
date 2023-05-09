@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  background-color: var(--background-dark);
+  background-image: var(--background-gradient);
+  color: var(--black);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --background-dark: #0093e9;
+  --background-gradient: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  --black: #000;
+  --white: #fff;
+}
+
+
+.container {
+  margin: 4rem auto 7rem;
+  text-align: center;
+  height: 100vh;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+
+textarea {
+  width: 80%;
+  height: 20vh;
+  display: block;
+  padding: 1rem;
+  margin: auto;  
+  border-radius: 0.5rem;
+}
+
+#output {
+  border: black solid 0.15rem;
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 20vh;
+  display: block;
+  padding: 1rem;
+  margin: auto;
+}
+
+button {
+    background-color: var(--background-dark);
+    border: none;
+    color: var(--black);
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: var(--black);
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
